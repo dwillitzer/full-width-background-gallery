@@ -33,7 +33,7 @@ This is a Plugin from <a rel="nofollow" href="http://www.wpfruits.com/?ref=wpl">
 You can also try our Full Width Background Slider WordPress theme <a rel="nofollow" href="http://www.sketchthemes.com/themes/analytical-full-width-responsive-wordpress-theme/?ref=wpfb" title="Analytical full Width Slider WordPress theme"> Analytical full Width Slider WordPress theme</a>
 </p>
 
-=Features  =
+= Features =
 	-Adds full page slider to use to your website.
 	-You can add  any number of images to the slider
 	-You can add a youtube video or upload your own video to the background.
