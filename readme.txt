@@ -12,7 +12,7 @@ This plugin is an extension of the Full width Background slider but in a differe
 
 Here are some of the salient features of the Full width Background Gallery WordPress Plugin
 
-====Description ==== 
+== Description ==
 
 	-Adds full page slider to use to your website.
 	-You can add  any number of images to the slider
