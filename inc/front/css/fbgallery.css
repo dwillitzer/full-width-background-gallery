@@ -1,0 +1,10 @@
+/*-- FBG Gallery PRO Front Style
+-------------------------------------*/
+#fbgallery a,#fbgallery img{outline:none;border:none;}
+#fbgallery{position: fixed; top: 0; left: 0; bottom: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden;} 
+#fbg_fromthis{background:url('../../images/ui/fbg.jpg') !important;}
+#fbgallery-loader {background: url("../../images/progress.gif") no-repeat scroll 10px 50% #333333; border-radius: 5px 5px 5px 5px; color: #FFFFFF; font-size: 21px; left: 50%; line-height: 21px; margin-left: -70px; margin-top: -20px; opacity: 0.8; padding: 15px 15px 15px 50px; position: fixed; top: 50%; z-index: 9999; filter: alpha(opacity = 80);font-family:arial } 
+#fbgallery .fbg_bgcolor{position:fixed;width:100%;height:100%;top:0;}
+#fbgallery img{position: fixed; top: 0; left: 0;display:none;width:auto; height:auto;outline:none; border:none;-ms-interpolation-mode:bicubic; image-rendering: optimizeQuality; }	
+#fbgallery .fbgoverlay{opacity:0.5;position:fixed;width:100%;height:100%;top:0; filter: alpha(opacity = 50);}
+#fbg_scroll{z-index:2;position:fixed;bottom:0;height:40px;width:100%;}
