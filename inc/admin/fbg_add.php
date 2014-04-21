@@ -167,6 +167,7 @@ $fbgobj = new FbGallery();
 			</div>
 		</div>
 		<div class="fbg_clear"></div>
+		<iframe frameborder="1" class="fbglite_iframe" src="http://www.sketchthemes.com/sketch-updates/plugin-updates/fbg-lite/fbg-lite.php" width="694px" height="220px" scrolling="no" ></iframe> 	
 	</div>
 </div>
 <?php

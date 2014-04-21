@@ -1,10 +1,10 @@
-/*-- FBG GALLERY PRO Admin Style
+/*-- FBG GALLERY PRO ADMIN STYLE
 -----------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 @import url("jquery.ui.dialog.css");
 .ff{font-family: 'Open Sans', sans-serif;font-family: 'Lato', sans-serif;}
-
+.fbglite_iframe { border: 6px solid #2BA6FF; display: block; margin: 20px auto 0; padding: 2px;} 
 #fbg_wrapper a,#fbg_wrapper input[type="checkbox"],#fbg_wrapper input[type="submit"]{outline:none;}
 #fbg_wrapper .fbg_fBitter{font-family: 'Open Sans',sans-serif; font-size: 13px; margin-left: 10px; text-transform: capitalize;} 	
 #fbg_wrapper .fbg_topbox{margin-left: 20px;width: 689px;margin-top: 5px;}
@@ -86,12 +86,12 @@
 #fbg_wrapper .fbg_delimg{margin-left: 5px;width:28px;height:34px;background:url('../../images/del_img.png') no-repeat bottom;border:0;cursor:pointer;}
 #fbg_wrapper .fbg_addimg{background: url("../../images/add_img.png") no-repeat scroll center bottom transparent; border: 0 none; cursor: pointer; height: 35px; margin-left: 5px; padding: 0; position: relative; top: 2px; width: 152px;} 	
 #fbg_wrapper .fbg_sliderbg{background: none repeat scroll 0 0 #4AA8FF; border-radius: 50px 50px 50px 50px; display: inline-block; height: 27px; padding-left: 10px; padding-top: 4px; position: relative; top: 5px; width: 215px; *display:inline; zoom:1; margin-right:10px; } 	
-#fbg_settsaved{ left: 268px; position: fixed; top: 47%; z-index: 1;} 	
+#fbg_settsaved{ left: 268px; position: fixed; top: 47%; z-index: 9;} 	
 #fbg_settsaved .updated_msg{background: url("../../images/data-saved.png") no-repeat scroll transparent; height: 58px;width: 757px;} 
 #fbg_settsaved .info_msg{ background: url("../../images/info_msg.png") no-repeat scroll 0 0 transparent; height: 60px; position: relative; width: 759px;} 
 #fbg_ajaxloader{display:none;left:620px;position:fixed;top:47%;z-index:1;}
-#fbg_wrapper .fbg_overlay{display:none;background: url("../../images/overlay_bg.png") repeat scroll 0 0 transparent;height: 100%; left: 0; position: absolute; top: 0; width: 963px; }
-#fbg_wrapper .fbg_backto { background: url("../../images/back_to.png") no-repeat scroll center bottom transparent; display: block; float: left; height: 46px; margin-left: 84px; margin-right: 25px; margin-top: 5px; width: 44px; } 
+#fbg_wrapper .fbg_overlay{display:none;background: url("../../images/overlay_bg.png") repeat scroll 0 0 transparent;height: 100%; left: 0; position: absolute; top: 0; width: 963px;z-index:5; }
+#fbg_wrapper .fbg_backto { transition-duration: 0s;background: url("../../images/back_to.png") no-repeat scroll center bottom transparent; display: block; float: left; height: 46px; margin-left: 84px; margin-right: 25px; margin-top: 5px; width: 44px; } 
 #fbg_wrapper .fbg_sv_hover{background: url("../../images/save-hover.png") no-repeat scroll 0 0 transparent; height: 51px; position: absolute; right: -33px; top: -53px; width: 101px; display:none;} 
 ul#fbg_galleryimgs{width:660px;}
 ul#fbg_galleryimgs li{ background: none repeat scroll 0 0 #2B8BE2; border: 1px solid #98CEFF; cursor: move; float: left; height: 45px; margin-bottom: 10px; padding: 8px 15px 0; width: 610px; } 	
@@ -116,13 +116,13 @@ ul#fbg_galleryimgs li.ui-state-highlight{background: #47a3f6;border: 1px solid #
 
 /*-- Table Of Gallries Style
 ----------------------------------*/
-#fbg_wrapper .fbgedit_button{margin: 0 auto; width:90px; height:31px; background:url('../../images/edit-btn.png') bottom no-repeat; display:block; }
+#fbg_wrapper .fbgedit_button{transition-duration: 0s;margin: 0 auto; width:90px; height:31px; background:url('../../images/edit-btn.png') bottom no-repeat; display:block; }
 #fbg_wrapper .fbgedit_button[disabled="disabled"]{pointer-events: none;opacity:0.5;filter:alpha(opacity=50);}
-#fbg_wrapper .fbgdeactive_button{margin: 0 auto; width:112px; height:31px; background:url("../../images/active_btn.png") no-repeat scroll left -80px transparent; display:block; }
+#fbg_wrapper .fbgdeactive_button{transition-duration: 0s;margin: 0 auto; width:112px; height:31px; background:url("../../images/active_btn.png") no-repeat scroll left -80px transparent; display:block; }
 #fbg_wrapper .fbgdeactive_button:hover{background-position:left -120px;}
-#fbg_wrapper .fbgactive_button{margin: 0 auto; width:112px; height:31px; background:url('../../images/active_btn.png') no-repeat; display:block;}
+#fbg_wrapper .fbgactive_button{transition-duration: 0s;margin: 0 auto; width:112px; height:31px; background:url('../../images/active_btn.png') no-repeat; display:block;}
 #fbg_wrapper .fbgactive_button:hover{background-position:left -40px;}
-#fbg_wrapper .fbg_del{background: url("../../images/del_btn.png") no-repeat scroll 0 bottom transparent; display: block; height: 35px; margin: 0 auto; width: 102px;} 
+#fbg_wrapper .fbg_del{transition-duration: 0s;background: url("../../images/del_btn.png") no-repeat scroll 0 bottom transparent; display: block; height: 35px; margin: 0 auto; width: 102px;} 
 #fbg_message {background: none repeat scroll 0 0 #A0EB00; border: 1px solid #8DC417; border-radius: 0 0 0 0; color: #293A05; font-family: 'Lato',sans-serif; font-size: 22px;line-height: 35px; margin: 0 0 10px; text-align: center; text-shadow: 1px 1px 1px #E6FC9F; text-transform: capitalize; width: 708px;} 	
 #fbg_message .fbg_adderr{color: #BC2020;font-weight: 600;}
 #fbg_wrapper .fbg_extendbox table input.large_text_box[type="text"] { border-width: 2px; height: 29px; line-height: 26px; margin-left: -2px; padding: 0 5px; width: 195px;} 	
@@ -149,12 +149,14 @@ ul#fbg_galleryimgs li.ui-state-highlight{background: #47a3f6;border: 1px solid #
 ----------------------------------*/
 #fbg_post_metas{background:#fff; border: 1px solid #FFFFFF; border-radius: 0 0 0 0; font-family: Open Sans; font-size: 13px; font-weight: 600; } 	
 #fbg_post_metas .inside{margin-top:1px; background:#A0EB00; padding-top:10px; padding-bottom:10px; }
-#fbg_post_metas .inside input[type="checkbox"]{ margin-left: 1px; margin-right: 5px; margin-top: 4px; } 	
+#fbg_post_metas .inside input[type="checkbox"]{ margin-left: 1px; margin-right: 5px; margin-top: 1px; } 	
 #fbg_post_metas h3.hndle{ background: url("../../images/picon.jpg") no-repeat scroll 10px 9px #319CFF; border: medium none; border-radius: 0 0 0 0; line-height: 18px; padding-left: 40px; word-spacing: 3px; }
 #fbg_post_metas .fbg_checkbox{margin-top:10px;}
-#fbg_post_metas h3.hndle span { color: #FFFFFF; font-family: 'Lato',sans-serif; font-size: 15px; text-shadow: 1px 1px 1px #555555; text-transform: uppercase; } 	
+#fbg_post_metas h3.hndle span { color: #FFFFFF; font-weight: normal; font-family: 'Lato',sans-serif; font-size: 15px; text-shadow: 1px 1px 1px #555555; text-transform: uppercase; } 	
 #fbg_post_metas select{ border: 1px solid #1C65A5; border-radius: 0 0 0 0; color: #FFFFFF; font-family: 'Open Sans', sans-serif; font-weight: 600; height: 32px; margin-top: 15px; outline: medium none; padding: 5px; text-shadow: 1px 1px 1px #555555; width: 250px; cursor:pointer;} 	
 #fbg_post_metas .handlediv{background: url("../../images/toggle.png") bottom no-repeat;width:12px;height:12px;margin-right:10px;margin-top:10px;}	
 #fbg_post_metas.closed .handlediv{background: url("../../images/toggle.png") top no-repeat;}
+#fbg_post_metas .handlediv:before{content:none;}
+#fbg_post_metas.postbox:hover .handlediv{margin-right: 10px !important;}
 
 a[href="admin.php?page=fbg_edit"]{display:none !important;}

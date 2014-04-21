@@ -46,7 +46,7 @@ class FbgFront
 					});
 					
 					jQuery(document).ready(function(){
-						jQuery('body').append('<div id="fbgallery-loader">Loading video...</div>');
+						jQuery('body').append('<div id="fbgallery-loader"></div>');
 						var options = { videoId: '<?php echo $youtubeid['v']; ?>',repeat:<?php echo $fbg_bgvdrept; ?>};
 						jQuery('body').tubular(options);
 					});
@@ -58,7 +58,7 @@ class FbgFront
 			?>
 				<script type="text/javascript">
 					jQuery(document).ready(function(){
-						jQuery('body').css('padding-bottom','50px').append('<div id="fbgallery-loader">Loading video...</div>').append('<div id="fbg_scroll"></div>');
+						jQuery('body').css('padding-bottom','50px').append('<div id="fbgallery-loader"></div>').append('<div id="fbg_scroll"></div>');
 						var FBGV = new jQuery.FbgVideo();
 						FBGV.init();
 						FBGV.show('<?php echo $fbg_bgvdourl; ?>',{doLoop:<?php echo $fbg_bgvdrept; ?>});
